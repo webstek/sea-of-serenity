@@ -1,0 +1,33 @@
+{
+    "name": "sea-of-serenity",
+    "displayName": "Sea of Serenity",
+    "description": "A theme for coding on the Moon.",
+    "version": "0.0.3",
+    "galleryBanner.color": "#a0a0a8",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/webstek/sea-of-serenity"
+    },
+    "publisher": "MrLizardAndCompany",
+    "engines": {
+        "vscode": "^1.80.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sea of Serenity",
+                "uiTheme": "vs-dark",
+                "path": "./themes/sea-of-serenity.json"
+            }
+        ]
+    },
+    "keywords": [
+        "vscode",
+        "theme",
+        "color theme",
+        "dark"
+    ]
+}

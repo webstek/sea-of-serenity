@@ -1,0 +1,89 @@
+{
+    "name": "Sea of Serenity",
+    "type": "dark",
+    "colors": {
+        
+        "selection.background": "#f0f0f8",
+        "foreground": "#f0f0f8",
+        "disabledForeground": "#f0f0f8",
+        "descriptionForeground": "#c0c0c8",
+        "errorForeground": "#ff8080",
+        "icon.foreground": "#f0f0f8",
+
+        "sash.hoverBorder": "#808088",
+        "widget.border": "#404048",
+        "widget.shadow": "#404048",
+
+        "textBlockQuote.background": "#909098",
+        "textBlockQuote.border": "#0040c0",
+        "textCodeBlock.background": "#9898a0",
+        "textLink.activeForeground": "#f0f0f8",
+        "textPreformat.foreground": "#0040c0",
+        "textPreformat.background": "#909098",
+
+        "toolbar.hoverBackground": "#a0a0a8",
+        "toolbar.activeBackground": "#a0a0a8",
+
+        "editorActionList.background": "#a0a0a8",
+        "editorActionList.foreground": "#f0f0f8",
+        "editorActionList.focusBackground": "#909098",
+        "editorActionList.focusForeground": "#f0f0f8",
+
+        "activityBar.background": "#707078",
+        "activityBar.foreground": "#f0f0f8",
+
+        "sideBar.background": "#808088",
+        "sideBar.foreground": "#f0f0f8",
+
+        "editor.background": "#a0a0a8",
+        "editor.lineHighlightBackground": "#909098",
+        "editor.foreground": "#f0f0f8",
+        "editorLineNumber.foreground": "#808088",
+        "editorLineNumber.activeForeground": "#000008",
+        "editorGutter.background": "#9898a0",
+        "editorCursor.background": "#f00",
+        
+        "editorIndentGuide.background": "#808088",
+        "editorIndentGuide.activeBackground": "#404048",
+        "editorLightBulb.foreground": "#ffd900",
+        "editorBracketMatch.background": "#707078",
+        "editorBracketMatch.border": "#707078",
+        "editorBracketHighlight.foreground1": "#000040",
+        "editorBracketHighlight.foreground2": "#0040c0",
+        "editorBracketHighlight.foreground3": "#a0d0ff",
+        "editorBracketHighlight.foreground4": "#ffd0a0",
+        "editorBracketHighlight.foreground5": "#ff8000",
+        "editorBracketHighlight.foreground6": "#c04000",
+        "editor.foldBackground": "#989098",
+
+        "titleBar.activeBackground": "#606068",
+        "titleBar.activeForeground": "#f0f0f8",
+        "titleBar.inactiveBackground": "#505058",
+
+        "editorGroupHeader.tabsBackground": "#0028a8",
+        "tab.activeBackground": "#0040c0",
+        "tab.inactiveBackground": "#0030b0",
+        "tab.border": "#0030b0",
+        "editorGroupHeader.tabsBorder": "#0040c0",
+        "breadcrumb.background": "#0040c0",
+        "editorGroupHeader.border": "#0040c0",
+
+        "editorWidget.background": "#b0b0b8",
+        "editorWidget.border": "#0040c0",
+        
+        "focusBorder": "#0040c0",
+        "input.background": "#909098",
+        "input.border": "#888890",
+        
+        "peekView.border": "#0040c0",
+        "peekViewEditor.background": "#9898a0",
+
+        "panel.background": "#909098",
+        "panel.border": "#0040c0",
+        "panelTitle.activeForeground": "#f0f0f8",
+
+        "statusBar.background": "#606068",
+        "statusBarItem.remoteBackground": "#0040c0"
+    },
+    "tokenColors": []
+}
