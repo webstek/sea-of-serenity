@@ -1,10 +1,12 @@
 # Sea of Serenity Colours
 | Element              | Colour         |
 |----------------------|----------------|
-| Primary Color        | `#0040c0`      |
-| Background           | `#a0a0a8`      |
+| Primary Color        | `#0028a8`      |
+| Background           | `#707078`      |
 | Text                 | `#f0f0f8`      |
-| Info Color           | `#08a060`      |
+| Info Color           | `#0080ff`      |
+| Added                | `#00a030`      |
+| Error                | `#f02040`      |
 
 ## Code Syntax Colour Tokens
 
