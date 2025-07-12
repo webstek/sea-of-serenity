@@ -12,13 +12,13 @@
         "widget.border": "#404048",
         "widget.shadow": "#404048",
 
-        "textBlockQuote.background": "#909098",
+        "textBlockQuote.background": "#808088",
         "textBlockQuote.border": "#0028a8",
-        "textCodeBlock.background": "#9898a0",
-        "textLink.activeForeground": "#a0d0ff",
-        "textLink.foreground": "#80c0ff",
-        "textPreformat.foreground": "#e8c080",
-        "textPreformat.background": "#606068",
+        "textCodeBlock.background": "#202028",
+        "textLink.activeForeground": "#a8d0ff",
+        "textLink.foreground": "#70b0ff",
+        "textPreformat.foreground": "#202028",
+        "textPreformat.background": "#c0c0c8",
 
         "toolbar.hoverBackground": "#ffffff20",
         "toolbar.activeBackground": "#707078",
@@ -27,9 +27,9 @@
         "editorActionList.focusBackground": "#888890",
         "editorActionList.focusForeground": "#f0f0f8",
 
-        "button.background": "#80c0ff",
+        "button.background": "#70b0ff",
         "button.foreground": "#404048",
-        "button.hoverBackground": "#a0d0ff",
+        "button.hoverBackground": "#a8d0ff",
 
         "dropdown.background": "#585860",
         "dropdown.foreground": "#d0d0d8",
@@ -70,7 +70,7 @@
         "badge.foreground": "#0080ff",
         "badge.background": "#484850",
 
-        "progressBar.background": "#00a060",
+        "progressBar.background": "#0028a8",
 
         "list.activeSelectionBackground": "#505058",
         "list.activeSelectionForeground": "#d0d0d8",
@@ -87,7 +87,7 @@
         "activityBar.background": "#404048",
         "activityBar.foreground": "#f0f0f8",
         "activityBarBadge.background": "#0080ff",
-        "activityBar.activeBorder": "#0080ff",
+        "activityBar.activeBorder": "#f0e0d8",
         "activityBar.inactiveForeground": "#707078",
 
         "sideBar.background": "#585860",
@@ -190,7 +190,17 @@
         "outputView.background": "#707078",
 
         "statusBar.background": "#0028a8",
+        "statusBar.debuggingBackground": "#706058",
+        "statusBar.foreground": "#a0a0a8",
+        "statusBar.noFolderBackground": "#505058",
         "statusBarItem.remoteBackground": "#0040c0",
+        "statusBarItem.remoteHoverBackground": "#0030b0",
+        "statusBarItem.remoteHoverForeground": "#e0e0e8",
+        "statusBarItem.errorBackground": "#f02040",
+        "statusBarItem.errorHoverBackground": "#ff6060",
+        "statusBarItem.warningBackground": "#f08000",
+        "statusBarItem.warningHoverBackground": "#ffc080",
+        "statusBarItem.offlineBackground": "#00000020",
 
         "titleBar.activeBackground": "#303038",
         "titleBar.activeForeground": "#d0d0d8",
