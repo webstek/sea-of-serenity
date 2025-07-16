@@ -118,8 +118,8 @@
         "editor.rangeHighlightBackground": "#2080ff40",
         "editor.symbolHighlightBackground": "#0080ffa0",
         
-        "editorIndentGuide.background": "#888890",
-        "editorIndentGuide.activeBackground": "#b0b0b8",
+        "editorIndentGuide.background1": "#888890",
+        "editorIndentGuide.activeBackground1": "#b0b0b8",
         "editorBracketMatch.background": "#f0f0f800",
         "editorBracketMatch.border": "#000008",
         "editorBracketHighlight.foreground1": "#000040",
@@ -129,7 +129,7 @@
         "editorBracketHighlight.foreground5": "#c08000",
         "editorBracketHighlight.foreground6": "#603800",
         
-        "editor.foldBackground": "#686060",
+        "editor.foldBackground": "#686060c0",
         "editor.foldPlaceholderForeground": "#a4a0a8",
         
         "editorLightBulb.foreground": "#ffd900",
@@ -292,7 +292,7 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#404048",
+                "foreground": "#a0a0b0",
                 "fontStyle": "italic"
             }
         },
@@ -313,7 +313,7 @@
         {
             "scope": "constant.language",
             "settings": {
-                "foreground": "#a0a0e0",
+                "foreground": "#f0a0a0",
                 "fontStyle": ""
             }
         },
@@ -361,14 +361,14 @@
         {
             "scope": "markup.italic",
             "settings": {
-                "foreground": "",
+                // "foreground": "",
                 "fontStyle": "italic"
             }
         },
         {
             "scope": "markup.bold",
             "settings": {
-                "foreground": "",
+                // "foreground": "",
                 "fontStyle": "bold"
             }
         },
@@ -431,7 +431,7 @@
         {
             "scope": "string",
             "settings": {
-                "foreground": "#f0c0c0",
+                "foreground": "#c0d0f0",
                 "fontStyle": ""
             }
         },
@@ -439,6 +439,12 @@
             "scope": "string.interpolated",
             "settings": {
                 "foreground": "#d08080"
+            }
+        },
+        {
+            "scope": "support.type.property-name",
+            "settings": {
+            "foreground": "#20c0e0"
             }
         },
         {
