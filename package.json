@@ -1,8 +1,8 @@
 {
   "name": "sea-of-serenity",
-  "displayName": "Sea of Serenity",
-  "description": "A theme for coding on the Moon.",
-  "version": "0.1.1",
+  "displayName": "Sea of Serenity & Tycho Crater",
+  "description": "Themes for coding on the Moon.",
+  "version": "0.2.1",
   "icon": "moon.png",
   "galleryBanner.color": "#a0a0a8",
   "repository": {
@@ -22,6 +22,11 @@
         "label": "Sea of Serenity",
         "uiTheme": "vs-dark",
         "path": "./themes/sea-of-serenity-color-theme.json"
+      },
+      {
+        "label": "Tycho Crater",
+        "uiTheme": "vs",
+        "path": "./themes/tycho-crater-color-theme.json"
       }
     ]
   },
@@ -29,6 +34,8 @@
     "vscode",
     "theme",
     "color theme",
-    "dark"
+    "dark",
+    "light",
+    "moon"
   ]
 }

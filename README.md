@@ -1,6 +1,6 @@
-# Sea of Serenity Theme
+# Sea of Serenity & Tycho Crater Themes
 
-Serene cool lunar grays for those who want an illuminated dark theme.
+Serene lunar grays for those who want an illuminated dark theme or an occluded light theme.
 
 **Enjoy coding on the moon!**
 
