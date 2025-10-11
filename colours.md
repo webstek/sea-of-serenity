@@ -9,10 +9,10 @@
 |Cursor     | #f8ffff
 |Selection  | #E8E4e0
 |Black/White| #181818 #F8FFFF
-|Reds       | #A02020 #D05868 
-|Oranges    | #C04010 #c88040 #FF8000 
-|Browns     | #503028 #603028 #805454 #b89460 #D0A060 #b09480 #D1B799
-|Greens     | #406040 #60A040
-|Cyans      | #006888 #00A0C0
-|Blues      | #0010a0 #284090 #0020e0 #80a0c8 #A0B0E0
+|Reds       | #A02020 #a04040 #D05868 #ff3050
+|Oranges    | #C04010 #c88040 #FF8000 #ffc02040
+|Browns     | #401000 #503028 #603028 #74625c #805454 #b89460 #D0A060 #b09480 #b8a080 #d0b898
+|Greens     | #406040 #60A040 #7fce00 #00a000 #40a040
+|Cyans      | #006888 #00A0C0 #80ffff
+|Blues      | #0010a0 #284090 #0020e0 #80a0c8 #A0B0E0 #78d0ffa0
 |Purples    | #a00080 #782478 #804080 #B868B8
