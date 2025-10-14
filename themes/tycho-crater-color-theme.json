@@ -174,9 +174,9 @@
       "editorGutter.deletedSecondaryBackground": "#ff8000",
       
       // diff editor
-      "diffEditor.insertedTextBackground": "#40a04080",
+      "diffEditor.insertedTextBackground": "#78d9ff80",
       "diffEditor.removedTextBackground": "#a0404080",
-      "diffEditor.insertedLineBackground": "#40a04040",
+      "diffEditor.insertedLineBackground": "#78d9ff40",
       "diffEditor.removedLineBackground": "#a0404040",
       
       // widgets
