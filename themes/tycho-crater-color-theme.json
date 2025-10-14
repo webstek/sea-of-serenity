@@ -89,6 +89,7 @@
       // "list.activeSelectionIconForeground": "#585450",
       "list.dropBackground": "#00000020",
       "list.hoverBackground": "#f8ffff30",
+      "list.focusOutline": "#00000000",
       "list.inactiveSelectionBackground": "#f8ffff20",
       "list.errorForeground": "#ff3050",
       "list.warningForeground": "#ff8000",
