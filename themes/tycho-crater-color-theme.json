@@ -3,7 +3,7 @@
   "type": "light",
   "colors": {
       // workbench + widget border
-      "focusBorder": "#00000080",
+      "focusBorder": "#00000000",
       "selection.background": "#00000010",
       "foreground": "#787470",
       "disabledForeground": "#787470",
@@ -11,7 +11,7 @@
       "errorForeground": "#ff3050",
       "icon.foreground": "#383430",
       "sash.hoverBorder": "#888480",
-      "widget.border": "#787470",
+      // "widget.border": "#a8a4a0",
       "widget.shadow": "#a8a4a0",
 
       // markdown preview colours
@@ -37,12 +37,13 @@
       "button.hoverBackground": "#0caccc",
 
       // dropdown menus
-      "dropdown.background": "#c4c0bc",
+      "dropdown.background": "#b4b0ac",
+      "dropdown.border": "#a4a09c",
       "dropdown.foreground": "#585450",
 
       // input boxes
       "input.background": "#b4b0ac",
-      "input.border": "#d4d0cc",
+      "input.border": "#a4a09c",
       "input.foreground": "#585450",
       "input.placeholderForeground": "#888480",
       "inputOption.activeBackground": "#ffffff20",
@@ -52,9 +53,9 @@
 
       // scrollbar
       "scrollbar.shadow": "#787470",
-      "scrollbarSlider.activeBackground": "#ffffff50",
-      "scrollbarSlider.background": "#ffffff30",
-      "scrollbarSlider.hoverBackground": "#ffffff40",
+      "scrollbarSlider.activeBackground": "#00000060",
+      "scrollbarSlider.background": "#00000040",
+      "scrollbarSlider.hoverBackground": "#00000050",
 
       // minimap
       "minimap.findMatchHighlight": "#f8ffffa0",
@@ -74,7 +75,7 @@
       "tab.inactiveBackground": "#c4c0bc",
       "tab.border": "#a4a09c",
       // "editorGroupHeader.tabsBorder": "",
-      "editorGroupHeader.border": "#888480",
+      // "editorGroupHeader.border": "#a8a4a0",
       "editorGroup.dropBackground": "#00000010",
       
       // badges
@@ -128,12 +129,14 @@
       "editor.wordHighlightBackground": "#ffc02040",
       
       // find highlighting
-      "editor.findMatchBackground": "#ffffffc0",
-      "editor.findMatchHighlightBackground": "#ffffff80",
+      "editor.findMatchBackground": "#ffffff",
+      // "editor.findMatchBorder": "#78d0ff",
+      "editor.findMatchHighlightBackground": "#ffffffa0",
+      // "editor.findMatchHighlightBorder": "#78d0ff80",
       "editor.hoverHighlightBackground": "#ffffff20",
       "editor.lineHighlightBackground": "#00000010",
-      "editor.rangeHighlightBackground": "#ffffff40",
-      "editor.symbolHighlightBackground": "#0080ffa0",
+      "editor.rangeHighlightBackground": "#f8ffff40",
+      "editor.symbolHighlightBackground": "#00a0c0a0",
       
       // editor guides/brackets
       "editorIndentGuide.background1": "#989490",
@@ -156,7 +159,7 @@
       
       // overview ruler
       "editorOverviewRuler.background": "#00000040",
-      "editorOverviewRuler.findMatchForeground": "#80ffffa0",
+      "editorOverviewRuler.findMatchForeground": "#ffffffa0",
       "editorWarning.foreground": "#ff8000",
       "editorError.foreground": "#ff3050",
       "editorInfo.foreground": "#00a0c0",
@@ -182,7 +185,7 @@
       // widgets
       "editorWidget.foreground": "#787470",
       "editorWidget.background": "#d4d0cc",
-      "editorWidget.border": "#888480",
+      "editorWidget.border": "#a8a4a0",
       "editorWidget.resizeBorder": "#805454",
       // "editorHoverWidget.background": "#707078",
       // "debugExceptionWidget.background": "#707078",
@@ -192,6 +195,10 @@
       "editorMarkerNavigationInfo.background": "#00a0c0",
       "editorMarkerNavigationError.headerBackground": "#f0204040",
       "editorStickyScrollHover.background": "#ffffff30",
+
+      // picker groups
+      "pickerGroup.border": "#80a0c8",
+      "pickerGroup.foreground": "#80a0c8",
       
       // peekview
       "peekView.border": "#401000",
@@ -216,6 +223,7 @@
       "panelSection.dropBackground": "#00000020",
       "panelSectionHeader.background": "#c4c0bc",
       "outputView.background": "#d4d0cc",
+      "panelInput.border": "#a4a09c",
       
       // status bar
       "statusBar.background": "#989490",
@@ -390,7 +398,7 @@
     {
       "scope": "keyword.control.directive",
       "settings": {
-        "foreground": "#383430",
+        "foreground": "#585450",
         "fontStyle": "italic"
       }
     },
@@ -424,6 +432,13 @@
       },
       {
           "scope": "entity.name.function.member",
+          "settings": {
+              "foreground": "#787470",
+              "fontStyle": "bold"
+          }
+      },
+      {
+          "scope": "entity.name.function.definition",
           "settings": {
               "foreground": "#787470",
               "fontStyle": "bold"
@@ -499,13 +514,13 @@
               "fontStyle": "italic"
           }
       },
-      {
-          "scope": "storage.modifier",
-          "settings": {
-              "foreground": "#b09480",
-              "fontStyle": "italic"
-          }
-      },
+      // {
+      //     "scope": "storage.modifier",
+      //     "settings": {
+      //         // "foreground": "#181818",
+      //         "fontStyle": "italic"
+      //     }
+      // },
       {
           "scope": "string",
           "settings": {
