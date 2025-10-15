@@ -52,17 +52,21 @@
       "inputOption.hoverBackground": "#ffffff20",
 
       // scrollbar
-      "scrollbar.shadow": "#787470",
-      "scrollbarSlider.activeBackground": "#00000060",
-      "scrollbarSlider.background": "#00000040",
-      "scrollbarSlider.hoverBackground": "#00000050",
+      "scrollbar.shadow": "#00000000",
+      "scrollbarSlider.activeBackground": "#00000020",
+      "scrollbarSlider.background": "#00000010",
+      "scrollbarSlider.hoverBackground": "#00000018",
 
       // minimap
+      "minimap.background": "#00000000",
+      "minimap.foregroundOpacity": "#000000c0",
+      "minimapSlider.background": "#00000010",
+      "minimapSlider.hoverBackground": "#00000018",
+      "minimapSlider.activeBackground": "#00000020",
       "minimap.findMatchHighlight": "#f8ffffa0",
       "minimap.selectionHighlight": "#78d0ffa0",
       "minimap.errorHighlight": "#ff3050a0",
       "minimap.warningHighlight": "#f08000a0",
-      "minimap.background": "#00000010",
       "minimap.infoHighlight": "#00a0c0a0",
       "minimapGutter.addedBackground": "#00a000",
       "minimapGutter.modifiedBackground": "#0020e0",
@@ -158,7 +162,8 @@
       "editorLightBulb.foreground": "#00a0c0",
       
       // overview ruler
-      "editorOverviewRuler.background": "#00000040",
+      "editorOverviewRuler.background": "#d4d0cc",
+      "editorOverviewRuler.border": "#00000000",
       "editorOverviewRuler.findMatchForeground": "#ffffffa0",
       "editorWarning.foreground": "#ff8000",
       "editorError.foreground": "#ff3050",
@@ -195,6 +200,7 @@
       "editorMarkerNavigationInfo.background": "#00a0c0",
       "editorMarkerNavigationError.headerBackground": "#f0204040",
       "editorStickyScrollHover.background": "#ffffff30",
+      "editorStickyScroll.shadow": "#a4a09c",
 
       // picker groups
       "pickerGroup.border": "#80a0c8",
@@ -213,8 +219,8 @@
       "peekViewTitleLabel.foreground": "#d4d0cc",
       
       // panel
-      "panel.background": "#d4d0cc",
-      "panel.border": "#888480",
+      "panel.background": "#bcb8b4",
+      "panel.border": "#bcb8bc",
       "panel.dropBorder": "#888480",
       "panelTitle.activeBorder": "#f8ffff",
       "panelTitle.activeForeground": "#f8ffff",
@@ -226,12 +232,12 @@
       "panelInput.border": "#a4a09c",
       
       // status bar
-      "statusBar.background": "#989490",
+      "statusBar.background": "#b8b4b0",
       "statusBar.foreground": "#383430",
       "statusBar.debuggingBackground": "#b8a080",
       "statusBar.debuggingForeground": "#585450",
       "statusBar.noFolderBackground": "#888480",
-      "statusBarItem.remoteBackground": "#74625c",
+      "statusBarItem.remoteBackground": "#84735c",
       "statusBarItem.remoteForeground": "#d4d0cc",
       "statusBarItem.remoteHoverBackground": "#503028",
       "statusBarItem.remoteHoverForeground": "#f8ffff",
@@ -255,6 +261,7 @@
       // terminal
       "terminal.background": "#d4d0cc",
       "terminal.border": "#888480",
+      "terminalStickyScrollHover.background": "#e4e0dc",
       "terminal.ansiBlack": "#181818",
       "terminal.ansiBrightBlack": "#503028",
       "terminal.ansiRed": "#a02020",
