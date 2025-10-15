@@ -95,6 +95,7 @@
       "list.dropBackground": "#00000020",
       "list.hoverBackground": "#f8ffff30",
       "list.focusOutline": "#00000000",
+      "list.highlightForeground": "#00a0c0",
       "list.inactiveSelectionBackground": "#f8ffff20",
       "list.errorForeground": "#ff3050",
       "list.warningForeground": "#ff8000",
@@ -133,6 +134,7 @@
       "editor.wordHighlightBackground": "#ffc02040",
       
       // find highlighting
+      // "editor.findMatchForeground": "#",
       "editor.findMatchBackground": "#ffffff",
       // "editor.findMatchBorder": "#78d0ff",
       "editor.findMatchHighlightBackground": "#ffffffa0",
@@ -207,16 +209,17 @@
       "pickerGroup.foreground": "#80a0c8",
       
       // peekview
-      "peekView.border": "#401000",
+      "peekView.border": "#603028",
       "peekViewEditor.background": "#d4d0cc",
       // "peekViewEditorGutter.background": "#686870",
-      "peekViewEditor.matchHighlightBackground": "#f8ffff80",
+      "peekViewEditor.matchHighlightBackground": "#f8ffffc0",
       "peekViewResult.background": "#c4c0bc",
-      "peekViewResult.matchHighlightBackground": "#f8ffff40",
+      "peekViewResult.matchHighlightBackground": "#f8ffffc0",
       "peekViewResult.selectionBackground": "#f8ffff20",
-      "peekViewTitle.background": "#503028",
+      "peekViewResult.selectionForeground": "#181818",
+      "peekViewTitle.background": "#d4d0cc",
       "peekViewTitleDescription.foreground": "#00a0c0",
-      "peekViewTitleLabel.foreground": "#d4d0cc",
+      "peekViewTitleLabel.foreground": "#603028",
       
       // panel
       "panel.background": "#bcb8b4",
@@ -239,7 +242,7 @@
       "statusBar.noFolderBackground": "#888480",
       "statusBarItem.remoteBackground": "#84735c",
       "statusBarItem.remoteForeground": "#d4d0cc",
-      "statusBarItem.remoteHoverBackground": "#503028",
+      "statusBarItem.remoteHoverBackground": "#705048",
       "statusBarItem.remoteHoverForeground": "#f8ffff",
       "statusBarItem.errorBackground": "#f02040",
       "statusBarItem.errorHoverBackground": "#ff6060",
@@ -254,6 +257,7 @@
 
       // menus
       "menu.separatorBackground": "#888480",
+      "menu.background": "#c4c0bc",
 
       // extension rating star
       "extensionIcon.starForeground": "#f08000",
@@ -475,7 +479,7 @@
       {
           "scope": "markup.link",
           "settings": {
-              "foreground": "#80c0ff",
+              "foreground": "#00a0c0",
               "fontStyle": "underline"
           }
       },
@@ -490,7 +494,6 @@
           "scope": "markup.list",
           "settings": {
               "foreground": "#600060",
-              "fontStyle": ""
           }
       },
       {
@@ -503,8 +506,8 @@
       {
           "scope": "markup",
           "settings": {
-              "foreground": "#c88040",
-              "fontStyle": "italic"
+              "foreground": "#80a0c8",
+              // "fontStyle": "italic"
           }
       },
       {
