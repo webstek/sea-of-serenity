@@ -68,9 +68,9 @@
       "minimap.errorHighlight": "#ff3050a0",
       "minimap.warningHighlight": "#f08000a0",
       "minimap.infoHighlight": "#00a0c0a0",
-      "minimapGutter.addedBackground": "#00a000",
-      "minimapGutter.modifiedBackground": "#0020e0",
-      "minimapGutter.deletedBackground": "#ff3050",
+      "minimapGutter.addedBackground": "#00a000a0",
+      "minimapGutter.modifiedBackground": "#0020e0a0",
+      "minimapGutter.deletedBackground": "#a04040a0",
 
       // editor tabs
       "editorGroup.border": "#888480",
@@ -170,7 +170,7 @@
       "editorInfo.foreground": "#00a0c0",
       "problemsErrorIcon.foreground": "#ff3050",
       "problemsWarningIcon.foreground": "#f08000",
-      "problemsInfoIcon.foreground": "#0080ff",
+      "problemsInfoIcon.foreground": "#00a0c0",
       
       // gutter
       // "editorGutter.background": "#c4c0bc",
@@ -503,7 +503,7 @@
       {
           "scope": "markup",
           "settings": {
-              "foreground": "#0020e0",
+              "foreground": "#c88040",
               "fontStyle": "italic"
           }
       },
