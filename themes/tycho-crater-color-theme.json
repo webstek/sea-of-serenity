@@ -120,7 +120,7 @@
       "editorCursor.background": "#787470",
       "editorCursor.foreground": "#f8ffff",
       "editorMultiCursor.secondary.foreground": "#503028",
-      "editorRuler.foreground": "#888480",
+      "editorRuler.foreground": "#b4b0ac",
       
       // selection highlighting
       "editor.selectionBackground": "#78d0ff60",
