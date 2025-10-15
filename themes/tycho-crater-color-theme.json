@@ -53,24 +53,25 @@
 
       // scrollbar
       "scrollbar.shadow": "#00000000",
-      "scrollbarSlider.activeBackground": "#00000020",
-      "scrollbarSlider.background": "#00000010",
-      "scrollbarSlider.hoverBackground": "#00000018",
+      "scrollbarSlider.activeBackground": "#00000030",
+      "scrollbarSlider.background": "#00000020",
+      "scrollbarSlider.hoverBackground": "#00000028",
 
       // minimap
       "minimap.background": "#00000000",
-      "minimap.foregroundOpacity": "#000000c0",
-      "minimapSlider.background": "#00000010",
-      "minimapSlider.hoverBackground": "#00000018",
-      "minimapSlider.activeBackground": "#00000020",
+      "minimap.foregroundOpacity": "#000000e0",
       "minimap.findMatchHighlight": "#f8ffffa0",
       "minimap.selectionHighlight": "#78d0ffa0",
+      "minimapSlider.background": "#00000020",
+      "minimapSlider.hoverBackground": "#00000028",
+      "minimapSlider.activeBackground": "#00000030",
       "minimap.errorHighlight": "#ff3050a0",
       "minimap.warningHighlight": "#f08000a0",
       "minimap.infoHighlight": "#00a0c0a0",
-      "minimapGutter.addedBackground": "#00a000a0",
-      "minimapGutter.modifiedBackground": "#0020e0a0",
-      "minimapGutter.deletedBackground": "#a04040a0",
+      "minimap.selectionOccurrenceHighlight": "#ffc020a0",
+      "minimapGutter.addedBackground": "#208020",
+      "minimapGutter.modifiedBackground": "#7090b8",
+      "minimapGutter.deletedBackground": "#a04040",
 
       // editor tabs
       "editorGroup.border": "#888480",
@@ -95,7 +96,7 @@
       "list.dropBackground": "#00000020",
       "list.hoverBackground": "#f8ffff30",
       "list.focusOutline": "#00000000",
-      "list.highlightForeground": "#00a0c0",
+      "list.highlightForeground": "#7090b8",
       "list.inactiveSelectionBackground": "#f8ffff20",
       "list.errorForeground": "#ff3050",
       "list.warningForeground": "#ff8000",
@@ -176,18 +177,18 @@
       
       // gutter
       // "editorGutter.background": "#c4c0bc",
-      "editorGutter.modifiedBackground": "#0020e0",
+      "editorGutter.modifiedBackground": "#7090b8",
       "editorGutter.modifiedSecondaryBackground": "#00a0c0",
-      "editorGutter.addedBackground": "#00a000",
-      "editorGutter.addedSecondaryBackground": "#40e070",
+      "editorGutter.addedBackground": "#208020",
+      "editorGutter.addedSecondaryBackground": "#7fce00",
       "editorGutter.deletedBackground": "#d05868",
       "editorGutter.deletedSecondaryBackground": "#ff8000",
       
       // diff editor
-      "diffEditor.insertedTextBackground": "#78d9ff80",
-      "diffEditor.removedTextBackground": "#a0404080",
-      "diffEditor.insertedLineBackground": "#78d9ff40",
-      "diffEditor.removedLineBackground": "#a0404040",
+      "diffEditor.insertedTextBackground": "#ffffff80",
+      "diffEditor.removedTextBackground": "#ffffff80",
+      "diffEditor.insertedLineBackground": "#78d9ff60",
+      "diffEditor.removedLineBackground": "#ff305060",
       
       // widgets
       "editorWidget.foreground": "#787470",
@@ -205,8 +206,8 @@
       "editorStickyScroll.shadow": "#a4a09c",
 
       // picker groups
-      "pickerGroup.border": "#80a0c8",
-      "pickerGroup.foreground": "#80a0c8",
+      "pickerGroup.border": "#7090b8",
+      "pickerGroup.foreground": "#7090b8",
       
       // peekview
       "peekView.border": "#603028",
@@ -222,7 +223,7 @@
       "peekViewTitleLabel.foreground": "#603028",
       
       // panel
-      "panel.background": "#bcb8b4",
+      "panel.background": "#ccc8c4",
       "panel.border": "#bcb8bc",
       "panel.dropBorder": "#888480",
       "panelTitle.activeBorder": "#f8ffff",
@@ -295,8 +296,8 @@
       "debugTokenExpression.number": "#a00080",
       
       // git file modifier colours
-      "gitDecoration.addedResourceForeground": "#00a000",
-      "gitDecoration.modifiedResourceForeground": "#0020e0",
+      "gitDecoration.addedResourceForeground": "#208020",
+      "gitDecoration.modifiedResourceForeground": "#7090b8",
       "gitDecoration.deletedResourceForeground": "#ff3050",
       "gitDecoration.untrackedResourceForeground": "#c88040",
       "gitDecoration.ignoredResourceForeground": "#808088",
@@ -368,7 +369,7 @@
       {
           "scope": "comment",
           "settings": {
-              "foreground": "#80a0c8",
+              "foreground": "#7090b8",
               "fontStyle": ""
           }
       },
@@ -506,7 +507,7 @@
       {
           "scope": "markup",
           "settings": {
-              "foreground": "#80a0c8",
+              "foreground": "#284090",
               // "fontStyle": "italic"
           }
       },
@@ -570,6 +571,10 @@
       "module": {
           "foreground": "#b09480",
           "fontStyle": "bold"
+      },
+      "function": {
+        "foreground": "#787470",
+        "fontStyle": "bold"
       }
   }
 }
