@@ -168,6 +168,9 @@
       "editorOverviewRuler.background": "#d4d0cc",
       "editorOverviewRuler.border": "#00000000",
       "editorOverviewRuler.findMatchForeground": "#ffffffa0",
+      "editorOverviewRuler.addedForeground": "#208020",
+      "editorOverviewRuler.modifiedForeground": "#7090b8",
+      "editorOverviewRuler.deletedForeground": "#a04040",
       "editorWarning.foreground": "#ff8000",
       "editorError.foreground": "#ff3050",
       "editorInfo.foreground": "#00a0c0",
@@ -181,14 +184,14 @@
       "editorGutter.modifiedSecondaryBackground": "#00a0c0",
       "editorGutter.addedBackground": "#208020",
       "editorGutter.addedSecondaryBackground": "#7fce00",
-      "editorGutter.deletedBackground": "#d05868",
+      "editorGutter.deletedBackground": "#a04040",
       "editorGutter.deletedSecondaryBackground": "#ff8000",
       
       // diff editor
-      "diffEditor.insertedTextBackground": "#ffffff80",
-      "diffEditor.removedTextBackground": "#ffffff80",
-      "diffEditor.insertedLineBackground": "#78d9ff60",
-      "diffEditor.removedLineBackground": "#ff305060",
+      "diffEditor.insertedTextBackground": "#bdd3dffe",
+      "diffEditor.removedTextBackground": "#e49fa9fe",
+      "diffEditor.insertedLineBackground": "#d1e1e9c0",
+      "diffEditor.removedLineBackground": "#ecbdc4c0",
       
       // widgets
       "editorWidget.foreground": "#787470",
@@ -298,7 +301,7 @@
       // git file modifier colours
       "gitDecoration.addedResourceForeground": "#208020",
       "gitDecoration.modifiedResourceForeground": "#7090b8",
-      "gitDecoration.deletedResourceForeground": "#ff3050",
+      "gitDecoration.deletedResourceForeground": "#a04040",
       "gitDecoration.untrackedResourceForeground": "#c88040",
       "gitDecoration.ignoredResourceForeground": "#808088",
       "gitDecoration.submoduleResourceForeground": "#00a0c0",
