@@ -465,8 +465,10 @@
           // "foreground": "#FF0000",
           "fontStyle": "bold"
         }
-          "scope": "entity.name.function.definition",
-          "settings": {
+      },
+      {
+        "scope": "entity.name.function.definition",
+        "settings": {
               "foreground": "#787470",
               "fontStyle": "bold"
           }
