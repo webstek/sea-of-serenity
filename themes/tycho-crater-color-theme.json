@@ -381,6 +381,13 @@
           }
       },
       {
+        "scope": "constant",
+        "settings": {
+            "foreground": "#00a0c0",
+            // "fontStyle": "underline"
+        }
+      },
+      {
         "scope": "keyword",
         "settings": {
             "foreground": "#181818",
@@ -428,6 +435,13 @@
               "foreground": "#787470",
               "fontStyle": "bold"
           }
+      },
+      {
+        "scope": "support.function",
+        "settings": {
+          // "foreground": "#FF0000",
+          "fontStyle": "bold"
+        }
       },
       {
           "scope": "invalid",
