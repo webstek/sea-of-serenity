@@ -253,6 +253,7 @@
       "statusBarItem.warningBackground": "#f08000",
       "statusBarItem.warningHoverBackground": "#ffc080",
       "statusBarItem.offlineBackground": "#00000020",
+      "statusBarItem.prominentBackground": "#00a0c0",
       
       // title bar
       "titleBar.activeBackground": "#888480",
