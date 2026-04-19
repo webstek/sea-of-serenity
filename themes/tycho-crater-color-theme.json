@@ -447,6 +447,13 @@
         }
       },
       {
+        "scope": "entity.name.function",
+        "settings": {
+          // "foreground": "#FF0000",
+          "fontStyle": "bold"
+        }
+      },
+      {
         "scope": "entity.name.function.call",
         "settings": {
           // "foreground": "#FF0000",
